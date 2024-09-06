@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Roboto', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    src: url('/fonts/Roboto-Regular.ttf') format('woff2'),
+         url('/fonts/Roboto-Thin.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+body{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-image: url('/images/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html,
+.fullscreen {
+    background-image: url(/images/back.jpg);
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+
+}
+
+.title {
+    font-size: 3rem;
+}
